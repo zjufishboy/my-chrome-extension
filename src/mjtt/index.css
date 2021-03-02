@@ -1,0 +1,85 @@
+.dplayer-video .dplayer-video-current {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: overlay;
+}
+iframe {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+#buffer {
+  z-index: 0 !important;
+}
+.header {
+  display: none;
+}
+.fc_foot {
+  display: none;
+}
+.layui-fixbar {
+  display: none;
+}
+.layui-tab-title {
+  display: none;
+}
+.ui-box {
+  display: none;
+}
+.layui-main {
+  display: none;
+}
+.layui-elem-quote {
+  display: none;
+}
+.layui-tab {
+  display: none;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  zoom: 1 !important;
+}
+.wtf-mjtt-button-next {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  z-index: 999;
+}
+#playleft {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+table {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+.MacPlayer {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+.playmian {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+}
