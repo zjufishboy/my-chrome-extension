@@ -18,6 +18,15 @@
       "matches": ["https://www.imeijutt.com/vodplay/*"],
       "css": ["mjtt/index.css"],
       "js": ["mjtt/index.js"]
+    },
+    {
+      "run_at": "document_end",
+      "matches": [
+        "http://livingroom.cmc.zju.edu.cn/*",
+        "http://vod.cmc.zju.edu.cn/*"
+      ],
+      "css": ["zykt/index.css"],
+      "js": ["zykt/index.js"]
     }
   ]
 }

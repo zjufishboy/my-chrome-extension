@@ -1,0 +1,77 @@
+#cmc_player_video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 999;
+}
+.cmc-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 999;
+}
+.cmc-expand {
+  display: none !important;
+}
+.course-info__small-screen {
+  display: none !important;
+}
+.course-info__note {
+  display: none !important;
+}
+.course-info__header {
+  display: none !important;
+}
+.feedback-botton-group {
+  display: none !important;
+}
+.cmc-control {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 100vw;
+  z-index: 999;
+}
+.custom-footer {
+  display: none !important;
+}
+.cmc-blue {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 999;
+  /* 	display:none !important; */
+}
+.custom-header__wrapper {
+  display: none !important;
+}
+.course-info__main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh !important;
+  width: 100vw !important;
+  z-index: 999;
+}
+body {
+  overflow: hidden;
+  background: black;
+}
+
+.wtf-zykt-button-next {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  z-index: 999;
+}
