@@ -27,6 +27,12 @@
       ],
       "css": ["zykt/index.css"],
       "js": ["zykt/index.js"]
+    },
+    {
+      "run_at": "document_end",
+      "matches": ["https://courses.zju.edu.cn/course/*"],
+      "css": ["xzzd/index.css"],
+      "js": ["xzzd/index.js"]
     }
   ]
 }

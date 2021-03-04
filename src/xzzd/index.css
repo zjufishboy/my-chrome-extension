@@ -1,0 +1,14 @@
+li .course {
+  height: 125px !important;
+}
+
+.wtf-xzzd-button {
+  position: fixed;
+  right: 10px;
+  top: 400px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  z-index: 999;
+}

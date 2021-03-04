@@ -4,7 +4,7 @@
  */
 
 const button = document.createElement("button");
-button.className = "wtf-zykt-button-next";
+button.className = "wtf-zykt-button";
 const host = window.location.host;
 const isVideoHost = host === "vod.cmc.zju.edu.cn";
 button.innerHTML = isVideoHost ? "下载" : "前往下载";

@@ -2,7 +2,7 @@
  * 文件描述：给美剧天堂的播放页面做的修复和优化
  */
 const button = document.createElement("button");
-button.className = "wtf-mjtt-button-next";
+button.className = "wtf-mjtt-button";
 button.innerHTML = "下一集";
 
 const handleGoToNext = () => {
