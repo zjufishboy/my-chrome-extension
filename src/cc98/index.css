@@ -1,0 +1,45 @@
+.wtf-cc98-button {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  z-index: 999;
+}
+.wtf-cc98-emoji-list {
+  position: fixed;
+  right: 10px;
+  box-sizing: border-box;
+  top: calc(50vh - 300px);
+  border-radius: 10px;
+  width: 80px;
+  max-height: 600px;
+  cursor: pointer;
+  z-index: 999;
+  background-color: white;
+  border: 1px black solid;
+  padding: 10px 0px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wtf-cc98-emoji-list::-webkit-scrollbar {
+  display: none;
+}
+.wtf-cc98-emoji {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: gray;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+}
+.wtf-cc98-emoji:last-child {
+  margin-bottom: 0px;
+}
