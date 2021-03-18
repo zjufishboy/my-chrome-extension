@@ -46,6 +46,12 @@
       ],
       "css": ["cc98/index.css"],
       "js": ["cc98/index.js"]
+    },
+    {
+      "run_at": "document_end",
+      "matches": ["http://www.career.zju.edu.cn/*"],
+      "css": ["zdjy/index.css"],
+      "js": ["zdjy/index.js"]
     }
   ]
 }

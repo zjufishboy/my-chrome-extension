@@ -1,0 +1,12 @@
+.xlogin-btn {
+  transform: none !important;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+}
+.xlogin-tog {
+  display: none !important;
+}
+.xheader_toop .xlogin.active {
+  background: none !important;
+}

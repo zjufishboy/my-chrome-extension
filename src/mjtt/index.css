@@ -5,6 +5,7 @@
   width: 100vw;
   height: 100vh;
   overflow: overlay;
+  z-index: 999;
 }
 iframe {
   position: fixed !important;
@@ -12,6 +13,10 @@ iframe {
   left: 0;
   width: 100vw;
   height: 100vh;
+}
+iframe[src="https://www.imeijutt.com"]
+{
+  display: none !important;
 }
 #buffer {
   z-index: 0 !important;
