@@ -10,3 +10,14 @@
 .xheader_toop .xlogin.active {
   background: none !important;
 }
+.wtf-zdjy-button {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  z-index: 1000;
+  border: none;
+}
