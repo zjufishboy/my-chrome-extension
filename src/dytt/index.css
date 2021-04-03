@@ -1,0 +1,70 @@
+.dplayer-video .dplayer-video-current {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: overlay;
+  z-index: 999;
+}
+iframe {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+#HMcoupletDivleft {
+  display: none !important;
+}
+
+#HMcoupletDivright {
+  display: none !important;
+}
+#HMRichBox {
+  display: none !important;
+}
+.bofangList {
+  position: fixed;
+  right: -366px;
+  top: 0;
+  height: 100vh;
+  max-width: 366px;
+  transition: all 0.3s;
+  z-index: 1000;
+}
+
+.bofangListUl {
+  min-height: 800px;
+  max-width: 206px;
+}
+
+.play-list {
+  position: fixed;
+  right: 0;
+  top: calc(50vh - 100px);
+  height: 200px;
+  width: 40px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  z-index: 1000;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.layui-tab-title {
+  display: none;
+}
+
+li.current {
+  border: 1px solid #33cc99;
+  background: #33cc99;
+  color: white !important;
+}
+
+li.current a {
+  color: white !important;
+}

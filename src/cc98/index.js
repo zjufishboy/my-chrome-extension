@@ -1,6 +1,7 @@
 /**
  * 文件描述：给cc98页面做的表情包收集器+快速回复按钮
  */
+
 // 快速去回复的按钮
 const button = document.createElement("button");
 button.className = "wtf-cc98-button";

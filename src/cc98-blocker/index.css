@@ -1,0 +1,15 @@
+.wtf-cc98-block-button-group {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 4px;
+  background: white;
+  z-index: 999;
+}
+.wtf-cc98-block-button {
+  width: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

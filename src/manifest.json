@@ -10,6 +10,7 @@
   "browser_action": {
     "default_icon": "icon.png"
   },
+  "web_accessible_resources": ["api.js"],
   "icons": {
     "16": "icon.png",
     "32": "icon.png",
@@ -52,6 +53,18 @@
       "matches": ["http://www.career.zju.edu.cn/*"],
       "css": ["zdjy/index.css"],
       "js": ["zdjy/index.js"]
+    },
+    {
+      "run_at": "document_end",
+      "matches": ["https://www.dytt.com/*"],
+      "css": ["dytt/index.css"],
+      "js": ["dytt/index.js"]
+    },
+    {
+      "run_at": "document_end",
+      "matches": ["https://www.cc98.org/*"],
+      "css": ["cc98-blocker/index.css"],
+      "js": ["cc98-blocker/index.js"]
     }
   ]
 }
