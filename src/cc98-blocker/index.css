@@ -13,3 +13,6 @@
   outline: none;
   cursor: pointer;
 }
+.downdown {
+  display: none !important;
+}
