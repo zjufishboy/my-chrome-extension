@@ -102,6 +102,7 @@ const handleDownload = (courseId = 0) => {
   fetch(apiStr)
     .then((res) => res.json())
     .then((res) => {
+      logInfo("[接口返回的愿数据]", res);
       if (res.activities && res.activities.length > 0) {
         const idArray = [];
         const data = res.activities.map((item) => item.uploads || []);
