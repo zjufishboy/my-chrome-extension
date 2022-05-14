@@ -3,20 +3,30 @@
   "description": "还我网页体验！！！！",
   "permissions": ["contextMenus", "tabs"],
   "version": "1.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   },
-  "browser_action": {
-    "default_icon": "icon.png"
+  "action": {
+    "default_icon": {
+      "16": "/icon.png",
+      "32": "/icon.png",
+      "48": "/icon.png",
+      "128": "/icon.png"
+    }
   },
-  "web_accessible_resources": ["api.js"],
   "icons": {
-    "16": "icon.png",
-    "32": "icon.png",
-    "48": "icon.png",
-    "128": "icon.png"
+    "16": "/icon.png",
+    "32": "/icon.png",
+    "48": "/icon.png",
+    "128": "/icon.png"
   },
+  "web_accessible_resources": [
+    {
+      "resources": ["api.js"],
+      "matches": ["https://www.cc98.org/*"]
+    }
+  ],
   "content_scripts": [
     {
       "run_at": "document_end",
@@ -65,6 +75,12 @@
       "matches": ["https://www.cc98.org/*"],
       "css": ["cc98-blocker/index.css"],
       "js": ["cc98-blocker/index.js"]
+    },
+    {
+      "run_at": "document_end",
+      "matches": ["https://www.bilibili.com/*", "https://live.bilibili.com/*"],
+      "css": ["./bilibili/index.css"],
+      "js": ["./bilibili/index.js"]
     }
   ]
 }
